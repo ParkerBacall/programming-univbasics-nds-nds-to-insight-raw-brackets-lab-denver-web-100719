@@ -18,7 +18,7 @@ while row_index < nds.length do
     column_index += 1
   end
   #add values to hash
-  result = ["#{nds[row_index]}"] = total_gross
+  result["#{nds[row_index]}"] = total_gross
   row_index += 1
 end
   result
