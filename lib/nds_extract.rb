@@ -12,11 +12,10 @@ row_index = 0
 
 while row_index < nds.length do
   column_index = 0
-  #pp nds
+  pp nds
   while column_index < nds[row_index].length do
     total_gross += nds[row_index][:movies][column_index][:worldwide_gross]
     column_index += 1
-    pp worldwide_gross
   end
     result["#{nds[row_index][:name]}"] = total_gross
   row_index += 1
