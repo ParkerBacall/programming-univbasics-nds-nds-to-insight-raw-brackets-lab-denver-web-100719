@@ -12,6 +12,7 @@ row_index = 0
 
 while row_index < nds.length do
   column_index = 0
+  pp nds.length
 
   while column_index < nds[row_index].length do
     total_gross += nds[row_index][:movies][column_index][:worldwide_gross]
