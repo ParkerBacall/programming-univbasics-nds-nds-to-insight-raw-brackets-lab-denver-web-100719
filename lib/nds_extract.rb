@@ -18,7 +18,6 @@ while row_index < nds.length do
     column_index += 1
     result["#{nds[row_index][:name]}"] = total_gross
   end
-  result["#{nds[row_index][:name]}"] = total_gross
   row_index += 1
 end
   result
