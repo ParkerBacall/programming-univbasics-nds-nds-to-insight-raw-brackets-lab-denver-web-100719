@@ -21,6 +21,5 @@ while row_index < nds.length do
   result << {"#{nds[row_index]}" => total_gross}
   row_index += 1
 end
-
   result
 end
