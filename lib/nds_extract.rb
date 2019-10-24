@@ -15,7 +15,7 @@ while row_index < nds.length do
   total_gross = 0
   while column_index < nds[row_index].length do
     total_gross += nds[row_index][:movies][column_index][:worldwide_gross]
-    return total_gross
+    pp total_gross
     column_index += 1
   end
   #add values to hash
