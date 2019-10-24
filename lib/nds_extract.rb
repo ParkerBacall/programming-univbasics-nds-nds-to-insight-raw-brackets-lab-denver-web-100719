@@ -19,7 +19,7 @@ while row_index < nds.length do
     pp total_gross
     column_index += 1
   end
-  result["#{nds[row_index][name:]}"] = total_gross
+  result["#{nds[row_index][:name]}"] = total_gross
   row_index += 1
 end
   result
