@@ -20,7 +20,7 @@ while row_index < nds.length do
   end
   result["#{nds[row_index][:name]}"] = total_gross
   row_index += 1
-  total_gross = 0
+  #total_gross = 0
 end
   result
 end
