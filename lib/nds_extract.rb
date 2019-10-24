@@ -7,7 +7,7 @@ def directors_totals(nds)
 result = {
 
 }
-
+total_gross = 0
 row_index = 0
 
 while row_index < nds.length do
